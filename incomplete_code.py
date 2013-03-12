@@ -1,7 +1,7 @@
 class Transportation(object):
    """Abstract base class"""
 
-   def __init__( self, start, end, distance ):
+   def __init__( self, start, end, distance):
       if self.__class__ == Transportation:
          raise NotImplementedError
       self.start = start
@@ -20,6 +20,14 @@ class Walk( Transportation ):
 
    def find_cost( self ):
       return 0
+      
+class Train( Transportation ):
+
+   def __init__( self, start, end, distance ):
+      Transportation.__init__( self, start, end, distance)
+
+   def find_cost( self , station):
+      return self.station * 5
 
 
    
