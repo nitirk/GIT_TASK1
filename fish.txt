@@ -1,0 +1,28 @@
+Abalone
+Alaskan husky
+Albacore tuna
+Anchovy
+Anglerfish
+Asiatic greater freshwater clam
+Barracuda
+Blowfish
+Blue whale
+Cardinal
+Caribou
+Carp
+Catfish
+Cougar
+Duck
+Goose
+Haddock
+Halibut
+Hermit crab
+Herring
+Otter
+Piranha
+Salmon
+Shark
+Swan
+Walrus
+Whale
+Whale shark
